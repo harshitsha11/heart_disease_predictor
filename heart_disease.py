@@ -16,7 +16,7 @@ def main():
 
     st.markdown("This app will help you to predict Heart Disease presence.")
 
-    p1 = st.number_input("Please enter you age", 1,200,step=1.0)
+    p1 = st.number_input("Please enter you age", 1,200,step=1)
 
     s1 = st.selectbox("Please enter your sex",("Male", "Female"))
     if s1=='Male':
@@ -26,19 +26,19 @@ def main():
 
     p3 = st.slider("Select the CP",0,3)
 
-    p4 = st.number_input("Enter your trestbps",1,500,step=1.0)
+    p4 = st.number_input("Enter your trestbps",1,500,step=1)
 
-    p5 = st.number_input("Enter your Cholestrol",1,500,step=1.0)
+    p5 = st.number_input("Enter your Cholestrol",1,500,step=1)
 
     p6 = st.slider("Enter you fbs",0,2)
 
     p7 = st.slider("Enter you restecg",0,3)
 
-    p8 = st.number_input("Enter you thalach",0,200,step=1.0)
+    p8 = st.number_input("Enter you thalach",0,200,step=1)
 
     p9 = st.slider("Enter your exang",0,2)
 
-    p10 = st.number_input("Enter you oldpeak",0,10,step=0.5)
+    p10 = st.number_input("Enter you oldpeak",0,10,step=1)
 
     p11 = st.slider("Enter you slope",0,3)
 
