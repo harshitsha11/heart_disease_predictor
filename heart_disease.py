@@ -10,7 +10,7 @@ def main():
     """
 
     model = DecisionTreeClassifier()
-    model.load_model("heart_disease_predictor.joblib")
+    model.joblib.load("heart_disease_predictor.joblib")
 
     st.markdown(html_temp, unsafe_allow_html=True)
 
