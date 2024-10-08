@@ -9,7 +9,7 @@ def main():
         <h1>Heart Disease Predictor</h1>
     """
 
-    model = dtc.DecisionTreeClassifier()
+    model = DecisionTreeClassifier()
     model.load_model("heart_disease_predictor.joblib")
 
     st.markdown(html_temp, unsafe_allow_html=True)
