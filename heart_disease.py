@@ -54,12 +54,12 @@ def main():
     'trestbps':p4,
     'chol':p5,
     'fbs':p6,
-    'restecg':p7
-    'thalach':p8
-    'exang':p9
-    'oldpeak':p10
-    'slope':p11
-    'ca':p12
+    'restecg':p7,
+    'thalach':p8,
+    'exang':p9,
+    'oldpeak':p10,
+    'slope':p11,
+    'ca':p12,
     'thal':p13
     },index=[0])
 
